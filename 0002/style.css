@@ -1,0 +1,12 @@
+article {
+  width: 250px;
+}
+
+img {
+  width: 100%;
+}
+
+pre {
+  white-space: pre-line;
+  margin-left: 10px;
+}
