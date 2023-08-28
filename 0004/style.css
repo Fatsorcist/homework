@@ -1,0 +1,28 @@
+body, html{
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background:
+    url(images/corner-b-r.png) bottom right no-repeat,
+    url(images/corner-t-r.png) top right no-repeat,
+    url(images/corner-b-l.png) bottom left no-repeat,
+    url(images/corner-t-l.png) top left no-repeat,
+    url(images/line-v.png) top right repeat-y,
+    url(images/line-v.png) top left repeat-y,
+    url(images/line-h.png) bottom left repeat-x,
+    url(images/line-h.png) top left repeat-x;
+  padding: 137px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 2.5em;
+  line-height: 2em;
+}
