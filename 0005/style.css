@@ -15,12 +15,12 @@
   background-color: rgb(240, 230, 140);
   padding: 10px;
   vertical-align: top;
-  width: 15%;
+  width: 200px;
 }
 
 main .sidebar {
-  word-wrap: break-word;
   float: left;
+  word-wrap: break-word;
 }
 
 .sidebar ul {
@@ -28,6 +28,7 @@ main .sidebar {
 }
 
 .content {
+  position: relative;
   background: url(images/ball.png);
   background-position: right;
   background-repeat: repeat-y;
@@ -35,8 +36,9 @@ main .sidebar {
   vertical-align: top;
 }
 
+
 main .content {
-  margin-left: 16.3%;
+  margin-left: 220px;
 }
 
 .content img {
