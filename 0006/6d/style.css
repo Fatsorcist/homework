@@ -1,0 +1,15 @@
+span {
+  display: inline-block;
+  background: url(images/star0.png) no-repeat;
+  width: 78px;
+  height: 78px;
+  cursor: pointer;
+}
+
+span:hover, .rating:hover span {
+  background: url(images/star1.png) no-repeat;
+}
+
+span:hover ~ span:not(:hover) {
+  background: url(images/star0.png) no-repeat;
+}
