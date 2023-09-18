@@ -11,6 +11,10 @@
   clear: both;
 }
 
+.sidebar, .content {
+  display: table-cell;
+}
+
 .sidebar {
   background-color: rgb(240, 230, 140);
   padding: 10px;
@@ -19,7 +23,6 @@
 }
 
 main .sidebar {
-  float: left;
   word-wrap: break-word;
 }
 
@@ -54,8 +57,17 @@ main .content {
 }
 
 @media (max-width: 768px) {
+
+  .sidebar, .content {
+    display: block;
+  }
+  
   div {
     padding: 10px !important;
+  }
+
+  img {
+    width: 100%;
   }
 
   main .sidebar, main .content {
@@ -63,4 +75,20 @@ main .content {
     width: auto;
     margin: initial;
   }
+
+  ul li {
+    display: inline;
+  }
+
+  ul li:not(:last-child)::after {
+    content: ', ';
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+  img {
+    width: 100%;
+  }
+
 }
