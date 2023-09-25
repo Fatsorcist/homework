@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAKET_FORM</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <div>
+        Для публикации вашей статьи заполните, пожалуйста, следующую форму:
+      </div>
+      <div class="form-row">
+        <label for="input-title">Название статьи:</label>
+        <input type="text" id="input-title" />
+      </div>
+      <div class="form-row">
+        <label for="input-category">Рубрика:</label>
+        <select id="input-category">
+          <option>компьютерная техника</option>
+          <option>графика и дизайн</option>
+          <option selected>программирование</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label>Публикация:</label>
+        <div class="radio-input">
+          <input type="radio" name="pub-type" /> на сайте
+        </div>
+        <div class="radio-input">
+          <input type="radio" name="pub-type" /> в журнале
+        </div>
+        <div class="radio-input">
+          <input type="radio" name="pub-type" /> на сайте и в журнале
+        </div>
+      </div>
+      <div class="form-row">
+        <label>Разрешить комментарии:</label>
+        <input type="checkbox" checked />
+      </div>
+      <div class="form-row">
+        <label>Текст статьи:</label>
+        <textarea></textarea>
+      </div>
+      <button type="submit">Опубликовать</button>
+    </form>
+  </body>
+</html>

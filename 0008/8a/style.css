@@ -1,0 +1,50 @@
+
+form {
+  width: initial;
+}
+
+div.form-row {
+  padding: 10px 0;
+}
+
+div.form-row, div.form-row *:not(input[type=radio]):not(input[type=checkbox]) {
+  width: 100%;
+}
+
+div.form-row label {
+  width: 200px !important;
+}
+
+
+
+.radio-input {
+  width: initial !important;
+  display: block;
+}
+
+@media (min-width: 301px) {
+
+
+
+  form {
+    padding: 10px;
+  }
+  
+  .radio-input {
+    display: inline-block;
+  }
+  
+  div.form-row {
+    display: flex;
+  }
+
+ 
+
+  
+  div.form-row, div.form-row *:not(input[type=radio]):not(input[type=checkbox]) {
+    width: 100%;
+    align-content: flex-start;
+  }
+  
+
+}

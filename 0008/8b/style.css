@@ -1,0 +1,45 @@
+div {
+  margin: 15px 0;
+}
+
+#collage {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.bgimg {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  z-index: 1;
+}
+
+.bgimg:hover {
+  z-index: 3;
+}
+
+#smoking {
+  width: 256px;
+  height: 256px;
+  position: absolute;
+  left: 72px;
+  top: 72px;
+  z-index: 2;
+}
+
+#biohazard {
+  top: 0;
+  left: 0; 
+}
+
+#genders {
+  top: 0;
+  right: 0; 
+}
+
+#yinyang {
+  bottom: 0;
+  left: 100px; 
+}
